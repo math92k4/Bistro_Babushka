@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="popUpStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <section id=popup>
+        <article>
+            <div id="luk">X</div>
+            <h2 class="popNavn"></h2>
+            <div class="popContainer">
+                <div class="column">
+                    <img class="popBillede" src="" alt="">
+                </div>
+                <div class="column">
+                    <p class="zerom">Beskrivelse: <span class="popLang"></span></p>
+                    <p>Oprindelse: <span class="popOprindelse"></span></p>
+                    <p>Pris: <span class="popPris"></span></p>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+
+
+    <div id=splash></div>
+
+
+    <section id=indhold>
+        <h1>Bistro Babushka</h1>
+        <h1 id="kategoriOverskrift">Alle</h1>
+        <nav>
+            <button class="filter valgt" data-type="alle">Alle</button>
+            <button class="filter" data-type="forretter">Forretter</button>
+            <button class="filter" data-type="hovedretter">Hovedretter</button>
+            <button class="filter" data-type="desserter">Desserter</button>
+            <button class="filter" data-type="sideorders">Sideorders</button>
+            <button class="filter" data-type="drikkevarer">Drikkevarer</button>
+        </nav>
+
+
+        <div id="container"></div>
+
+    </section>
+
+    <template>
+        <article>
+            <img class="billede" src="" alt="">
+            <h2 class="navn"></h2>
+            <p class="besk"></p>
+            <p class="pris">Pris: </p>
+            <!--
+            <p class="beskLang"></p>
+            <p class="land"></p>
+            <p class="kategori"></p>
+-->
+
+
+        </article>
+    </template>
+
+
+
+
+
+    <script src="popUpJava.js"></script>
+</body>
+
+</html>
